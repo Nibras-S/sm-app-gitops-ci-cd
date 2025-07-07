@@ -4,7 +4,7 @@ image:
   # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "16125029761"
+  tag: "16125345329"
 
 ingress:
   enabled: false
