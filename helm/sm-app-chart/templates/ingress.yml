@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: sm-app
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: sm-app.local
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: sm-app
+            port:
+              number: 80

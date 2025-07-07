@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sm-app
+  labels:
+    app: sm-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sm-app
+  template:
+    metadata:
+      labels:
+        app: sm-app
+    spec:
+      containers:
+      - name: sm-app
+        image: nibrasdocker/sm-app:v1
+        ports:
+        - containerPort: 80
+
