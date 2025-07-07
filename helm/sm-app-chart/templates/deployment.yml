@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: sm-app
-        image: nibrasdocker/sm-app:v1
+        image: nibrasdocker/sm-app:{{ .Values.image.tag}}
         ports:
         - containerPort: 80
 
