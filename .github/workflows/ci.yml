@@ -83,3 +83,4 @@ jobs:
           git add helm/sm-app-chart/values.yaml
           git commit -m "Update image tag to ${{ github.run_id }}"
           git push https://x-access-token:${{ secrets.TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+#everything will be okkay
