@@ -85,7 +85,4 @@ jobs:
           git config --global user.email "connectnibras@gmail.com"
           git add helm/sm-app-chart/values.yaml
           git commit -m "Update image tag in Helm chart"
-          #  git commit -m "Update image tag to ${{ github.run_id }}"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
-          
-
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master
