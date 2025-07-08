@@ -8,7 +8,7 @@ const Footer = () => {
         
         {/* About Us Section */}
         <div className="space-y-4 md:pl-6">
-          <h4 className="text-lg font-bold">All about nibras Sajnas</h4>
+          <h4 className="text-lg font-bold">About Spare Mec Auto Spare Parts</h4>
           <p className="text-sm">
             SM Auto Spare Parts Trading LLC is your trusted partner for genuine and aftermarket auto parts, specializing in servicing the UAE and GCC countries. From premium car filters to durable engine components, we ensure quality at competitive prices.
           </p>

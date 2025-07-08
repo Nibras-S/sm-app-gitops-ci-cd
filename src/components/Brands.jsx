@@ -12,9 +12,9 @@ const BrandShowcase = () => {
   return (
     <section id='brands' className="py-8 bg-gray-50">
       <div className="container mx-auto text-center">
-        <h2 className="text-2xl font-bold mb-6">Brands We Service</h2>
+        <h2 className="text-2xl font-bold mb-6">Application for Cloud Devops Engineer</h2>
         <p className="mb-8 text-gray-600">
-          We provide genuine and high-quality parts for leading automotive brands in the UAE and GCC region.
+          Nibras Sajnas
         </p>
 
         {/* Brands Container */}
